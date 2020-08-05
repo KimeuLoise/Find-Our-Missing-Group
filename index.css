@@ -1,0 +1,33 @@
+body{
+    background-color: #6ebaf5;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+nav{
+    height: 5%;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+    color: black;
+}
+h1{
+    color: white;
+    clear: right;
+    padding-left: 40%;
+    padding-top: 5%;
+}
+p{
+    text-align: center;
+}
+img{
+    margin: auto;
+    width: 50%;
+    border-radius: 20%;
+    display: block;
+}
