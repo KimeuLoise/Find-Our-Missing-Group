@@ -1,16 +1,30 @@
 body{
     background-color: #6ebaf5;
 }
+nav{
+    height: 5%;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
 nav ul li{
     list-style-type: none;
-    text-decoration-style: none;
-    display: inline;
+    text-decoration: none;
+    display: inline-block;
     padding: 5px;
-    color: green;
-    text-transform: uppercase;
-    font-size: medium;
-    justify-content: right;
+    color: black;
 }
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(17, 109, 8);
+    text-align: left;
+    }
 h2{
     text-align: center;
     font-size: xx-large;
@@ -33,12 +47,6 @@ h3{
     text-align: center;
     margin-top: 0;
 }
-#Footer{
-    justify-content: center;
-    font-size: medium;
-    font-weight: bold;
-    text-align: center;
-}
 #Worried{
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20%;
@@ -48,6 +56,21 @@ h3{
    column-count: 2;
    max-width: 1300px;
    justify-content: center;
-       }
+}
+#Header{
+    justify-content: space-between;
+    display: flex;
+    float: left;
+    background-color: grey;
+}
+#Footer{
+    justify-content: space-between;
+    font-size: small;
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+    height:150px;
+    text-align: center;
+}
 
 
