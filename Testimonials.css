@@ -1,6 +1,10 @@
 body{
     background-color: #6ebaf5;
-}
+    }
+#main{
+    column-count: 3;
+    text-align: justify;
+    }
 nav ul li{
     list-style-type: none;
     text-decoration-style: none;
@@ -18,4 +22,29 @@ h2{
 p{
     font-family: sans-serif;
     font-size: large;
+    margin-left: 2;
+    margin-right: 2;
+}
+h3{
+    color:white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0;
+}
+#Peris{
+    background-color: pink;
+    }
+    #Amani{
+        background-color: pink;
+    }
+    #James{
+    background-color: green;
+    }
+#Footer{
+    justify-content: center;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
 }
