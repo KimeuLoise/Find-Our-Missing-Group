@@ -26,3 +26,9 @@ h3{
     font-weight: bold;
     font-style: italic;
 }
+#Footer{
+    justify-content: center;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
