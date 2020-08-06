@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="found.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="images/logo.png" alt="logo" width="85px">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About us</a></li> 
+                <li><a href="missing.html">Report Missing Person</a></li> 
+                <li><a href="found.html">Found</a></li>
+                <li><a href="donate.html">Donations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="found">
+        <h1>Report Found Person</h1>
+        <h2>Information about you:</h2>
+    <form>
+        <fieldset>
+            <legend>Name</legend>            
+            <label>First name: <input type="text" name="firstname"></label>            
+            <label>Lastname: <input type="text" name="lastname"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>Email Address: <input type="email" name="email"></label>
+            <label>Phone Number: <input type="text" name="phone"></label>
+        </fieldset>
+    </form>
+
+
+        <h2>Information about the found person:</h2>
+    <form>
+        <fieldset>
+            <legend>Gender</legend>            
+            <label><input type="radio" name="gender" value="male"> Male</label>            
+            <label><input type="radio" name="gender" value="female"> Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>Physical Appearance</legend>
+            <label for="descrition">Description:</label>
+            <textarea for="description" name="descrpition"></textarea>
+            <label for="file-select">Photo:</label>
+            <input type="file" name="upload" id="file-select">
+        </fieldset>
+    </form>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+
+    <footer>
+        <div id="footer">
+            <div id="footer content">
+                <h4>Find Our Missing</h4>
+                <h4>Contact us-0700000000</h4>
+                <a href="https://web.facebook.com/Find-Our-Missing-Kenya-621424035171227/"></a>
+                <h4>Quick Links</h4>
+            </div>
+            <div id="footer bottom">&copy;Coders11|Designed by G-11</div>
+        </div>
+    </footer>
+
+</body>
+</html>
