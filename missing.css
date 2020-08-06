@@ -1,0 +1,13 @@
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    color: black;
+}
+body{
+    background-color: #6ebaf5;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
