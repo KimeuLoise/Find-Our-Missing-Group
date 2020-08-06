@@ -10,12 +10,13 @@
     <header>
         <nav>
             <ul>
+                <img src="images/logo.png" alt="logo" width="85px">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#about-us">About us</a></li>
+                <li><a href="about.html">About us</a></li>
                 <li><a href="missing.html">Report Missing Person</a></li>
-                <li><a href="#found">Found</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#donations">Donations</a></li>
+                <li><a href="found.html">Found</a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="donate.html">Donations</a></li>
             </ul>
         </nav>
     </header>
@@ -25,6 +26,7 @@
         <form>
             <label for="photo">Recent photo:</label><br>
             <input type="image" id="photo" name="photo"><br><br>
+            <img src="images/find_bloke.svg" alt="find_bloke" width="250px">
             <label for="name">Missing person's name:</label><br>
             <input type="text" id="name" name="name"><br><br>
             <label for="age">Age:</label><br>
@@ -32,7 +34,7 @@
             <label for="gender">Gender:</label><br>
             <input list="gender" name="gender">
                 <datalist id="gender">
-                    <option value="Male">
+                    <option value="Female">
                     <option value="Male">
                     <option value="Other">
                 </datalist><br><br>
@@ -44,6 +46,7 @@
             <input type="text" id="location" name="location"><br><br>
             <label for="height">Height (cm):</label><br>
             <input type="number" id="height" name="height"><br><br>
+            <div id="lady"><img  src="images/find_lady.png" alt="find_lady" width="300px"></div>
             <label for="color">Skin color:</label><br>
             <input type="text" id="color" name="color"><br><br>
             <label for="eye">Eye color:</label><br>
@@ -54,6 +57,7 @@
             <input type="text" id="physical-attributes" name="physical-attributes"><br><br>
             <label for="wearing">Last seen wearing:</label><br>
             <input type="text" id="wearing" name="wearing"><br><br>
+            <input type="submit">
           </form>
 </body>
 </html>
