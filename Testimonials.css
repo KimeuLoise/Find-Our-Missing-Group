@@ -4,14 +4,20 @@ body{
 #main{
     column-count: 3;
     text-align: justify;
+    border: mintcream;
     }
 nav ul li{
     list-style-type: none;
     text-decoration-style: none;
     display: inline;
     padding: 5px;
-    color: black;
+    color: red;
+    text-transform: uppercase;
+    font-size: medium;
+    justify-content: right;
+    text-indent: 100;
 }
+
 h2{
     text-align: center;
     font-size: xx-large;
@@ -22,8 +28,8 @@ h2{
 p{
     font-family: sans-serif;
     font-size: large;
-    margin-left: 2;
-    margin-right: 2;
+    margin-left: 1;
+    margin-right: 1;
 }
 h3{
     color:white;
@@ -32,19 +38,15 @@ h3{
     font-weight: bold;
     font-style: italic;
     margin-top: 0;
+    text-align: center;
 }
-#Peris{
-    background-color: pink;
-    }
-    #Amani{
-        background-color: pink;
-    }
-    #James{
-    background-color: green;
-    }
 #Footer{
     justify-content: center;
     font-size: medium;
     font-weight: bold;
     text-align: center;
+}
+#picha{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20%;
 }
