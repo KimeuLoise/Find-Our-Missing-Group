@@ -1,3 +1,8 @@
+nav{
+    height: 5%;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
 nav ul li{
     list-style-type: none;
     text-decoration: none;
@@ -5,9 +10,47 @@ nav ul li{
     padding: 5px;
     color: black;
 }
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
 body{
     background-color: #6ebaf5;
     width: 80%;
     display: block;
     margin: auto;
+}
+h1{
+    color: white;
+    clear: right;
+    text-align: center;
+    padding-top: 5%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+
+}
+form input{
+    width: 50%;
+    box-shadow: 0 8px 8px 0 rgba(165, 185, 75, 0.2), 0 6px 20px 0 rgba(165, 185, 75, 0.2);
+    border-radius: 10%;
+    font-family: sans-serif;
+}
+nav>ul>img{
+    box-shadow: 0 8px 8px 0 rgba(165, 185, 75, 0.2), 0 6px 20px 0 rgba(165, 185, 75, 0.2);
+    border-radius: 20%;
+}
+form img{
+    float: right;
+}
+#lady{
+    float: right;
 }

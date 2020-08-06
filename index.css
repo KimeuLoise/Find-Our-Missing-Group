@@ -1,5 +1,6 @@
 body{
-    background-color: #6ebaf5;
+    background-image: linear-gradient(-90deg, rgb(235, 184, 184), #6ebaf5);
+    /*background-color: #6ebaf5;*/
     width: 80%;
     display: block;
     margin: auto;
@@ -12,22 +13,38 @@ nav{
 nav ul li{
     list-style-type: none;
     text-decoration: none;
-    display: inline;
+    display: inline-block;
     padding: 5px;
+    color: black;
+}
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
     color: black;
 }
 h1{
     color: white;
     clear: right;
-    padding-left: 40%;
     padding-top: 5%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 p{
     text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
 }
-img{
+#img>img{
     margin: auto;
     width: 50%;
-    border-radius: 20%;
+    border-radius: 15%;
     display: block;
+    box-shadow: 0 50px 50px 0 rgba(89, 90, 87, 0.809), 0 50px 50px 0 rgba(197, 236, 23, 0.809);
+
+}
+nav>ul>img{
+    box-shadow: 0 8px 20px 0 rgba(89, 90, 87, 0.809), 0 6px 20px 0 rgba(197, 236, 23, 0.809);
+    border-radius: 20%;
 }
